@@ -1,43 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-        Test Form
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script src="../main.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Properties 20/20</title>
+	<link rel="icon" href="img/logo2.png">
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
 </head>
-<body>
-    <form id="test-form">
-  
-        <div>
-          <label>Field 1</label>
-          <input type="text" name="name" placeholder="Field 1"/>
-        </div>
-      
-        <div>
-          <label>Field 2</label>
-          <input type="text" name="email" placeholder="Field 2"/>
-        </div>
-        
-        <div>
-          <label>Field 3</label>
-          <input type="text" name="location" placeholder="Field 3"/>
-        </div>
-        
-        <div>
-          <label>Field 4</label>
-          <input type="text" name="phone" placeholder="Field 4"/>
-        </div>
-      
-        <div>
-          <button type="submit"id="submit-form">Submit</button>
-        </div>
-      
-      </form>
+
+<body data-spy="scroll" data-target="#navbarResponsive"> 
+
+<!--- Start Home Section -->
+<div id="home">
+	<!--- Navbar --->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#"><img src="img/logo2.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#service">Our Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--- Landing --->
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+
+			</div>
+		</div>
+	</div>
+
+	<div class="caption text-center">
+		<h1>Properties 20/20</h1>
+		<h3>Finding homes for you.</h3>
+		<a class="btn btn-outline-light btn-lg" href="#contact">Get In Touch</a>
+	</div>
+
+</div> 
+<!--- End Home Section -->
+
+
+
+<!--- Start About Section -->
+<div id="about" class="offset">
+		<div class="col-12">
+			<div class="narrow text-center" >
+			<h3 class="heading">About Us</h3>
+			<div class="heading-underline"></div>
+			</div>
+		<section>
+				<div class="container">
+				  <div class="row align-items-center">
+					<div class="col-lg-4 order-lg-2">
+					  <div class="p-5">
+						<img class="img-fluid rounded-circle" src="img/anotherroundmission.png" alt="">
+					  </div>
+					</div>
+					<div class="col-lg-8 order-lg-1">
+					  <div class="p-5">
+						<h2 class="display-4">Some random text here</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+			
+			  <section>
+				<div class="container">
+				  <div class="row align-items-center">
+					<div class="col-lg-4">
+					  <div class="p-5">
+						<img class="img-fluid rounded-circle" src="img/anotherround.png" alt="">
+					  </div>
+					</div>
+					<div class="col-lg-8">
+					  <div class="p-5">
+						<h2 class="display-4">More random text here!</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+	</div>
+</div>
+<!--- End about Section -->
+
+
+
+<!--- Start service Section -->
+<div id="service" class="service">
+	<div class="fixed-background">
+		<div class="row dark">
+			<div class="narrow text-center">
+			<div class="col-12">
+				<h3 class="heading">Our Services</h3>
+				<div class="heading-underline"></div>
+			</div>
+			<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus pulvinar augue. Morbi aliquam accumsan elit eget blandit. Aenean vitae ullamcorper tellus. Proin odio erat, hendrerit facilisis dui sed, scelerisque interdum mauris. Quisque a mauris maximus, molestie nulla nec, vestibulum turpis. Integer quis diam vitae ante viverra pellentesque ut elementum magna. Nulla facilisi. Donec eget ipsum vel quam condimentum mattis in sed erat. Integer volutpat tempus euismod. Morbi tincidunt at dolor et eleifend. Suspendisse potenti. Fusce volutpat sed orci a hendrerit.
+			</h5>
+		</div>
+		</div> <!-- End Row Dark-->
+		
+		<div class="fixed-wrap">
+			<div class="fixed"></div>
+
+	</div>
+</div>
+<!--- End service Section -->
+
+
+
+<!--- Start Contact Section -->
+<div id="contact" class="contact">
+
+	<div class="col-12">
+		<div class="narrow text-center">
+			<h3 class="heading">Contact Us</h3>
+			<div class="heading-underline"></div>
+		
+			<div class="typeform-widget" data-url="https://ibraaheem.typeform.com/to/THGwDR" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=THGwDR&utm_source=typeform.com-14312263-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> 
+			</div> 
+		</div>	
+	</div>
+</div>
+<!--- End Contact Section -->
+
+
+
+<!--- Start Footer Section -->
+<div id="footer" class="offset"> 
+	<footer>
+		<div class="row justify-content-center">
+			<div class="col-md-5 text-center">
+				<img src="img/logo2.png">
+			</br>
+				<strong>Contact Info</strong>
+				<p>
+					Info@properties2020.co.za
+				</p>
+			</div>
+		</div>
+
+	</footer>
+</div>
+<!--- End Footer Section -->
+
+
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<!--- End of Script Source Files -->
+
 </body>
 </html>
+
