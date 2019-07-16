@@ -140,7 +140,9 @@ h3.heading-about{
   z-index: -1;
 }
 
-
+.dark {
+  background-color: rgba(0,0,0,0.75); 
+}
 
 .fixed-background h5 {
   margin-bottom: 3rem;
