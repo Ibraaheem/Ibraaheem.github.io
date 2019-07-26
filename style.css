@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #0080A7;
-  background-color: #eeeeee;
+  background-color: rgb(159, 180, 188);
 }
 
 /*============= NAVIGATION     =============*/
@@ -15,7 +15,7 @@ body {
   font-size: .9rem;
   letter-spacing: .1rem;
   
-  background-color: rgba(253, 253, 253, 0.78)!important;
+  background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
 /* background-color: rgba(253, 253, 253, 0.78); */
