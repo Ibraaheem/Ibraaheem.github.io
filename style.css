@@ -286,28 +286,6 @@ input[type=submit]:hover {
 
 /*==============================================*/
 
-@media (max-width: 576px) {
-  .email {
-    margin-left: 0%;
-    margin-right: 0%;
-    overflow-x: hidden;
-  }
-}
-
-@media (max-width: 992px) {
-  .fixed-background h5 {
-    margin: -5rem;
-    overflow-x: hidden;
-  }
-}
-
-@media (max-width: 576px) {
-  .fixed-background h5 {
-    margin: -1rem;
-    overflow-x: hidden;
-  }
-}
-
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
