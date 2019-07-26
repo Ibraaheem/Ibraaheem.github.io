@@ -301,7 +301,7 @@ input[type=submit]:hover {
 
 @media (max-width: 576px) {
   .fixed-background h5 {
-    margin: -1rem;
+    margin: 0rem;
   }
 }
 
