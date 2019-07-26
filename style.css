@@ -288,14 +288,20 @@ input[type=submit]:hover {
 
 @media (max-width: 576px) {
   .email {
-    margin-left: -5%;
-    margin-right: -5%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 
 @media (max-width: 990px) {
   .fixed-background h5 {
     margin: 0rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .fixed-background h5 {
+    margin: -1rem;
   }
 }
 
