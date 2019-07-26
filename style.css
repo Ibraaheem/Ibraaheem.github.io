@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #0080A7;
-  background-color: #DCDCDC;
+  background-color: rgb(220,220,220);
 }
 
 /*============= NAVIGATION     =============*/
