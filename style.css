@@ -75,6 +75,12 @@ body {
   font-size: 1rem;
 }
 
+.btn-lg:hover{
+  background-color: #0080A7;
+  border-color: #0080A7;
+  color: white;
+}
+
 
 /*============= ABOUT SECTION =============*/
 
