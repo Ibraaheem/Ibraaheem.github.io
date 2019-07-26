@@ -80,7 +80,6 @@ body {
 
 .narrow {
   width: 100%;
-  margin-top: 2rem;
   padding-top: 0rem;
   padding-bottom: 0rem;
   
@@ -103,7 +102,7 @@ body {
 .btn-secondary:focus {
   border-color: #189582;
   background-color: #189582;
-  color: #0080A7;;
+  color: #0080A7;
 }
 
 .contact{
@@ -129,7 +128,7 @@ h3.heading-about{
 .heading-underline {
   width: 15%;
   height: .2rem;
-  background-color: #0080A7;
+  background-color: rgba(0, 0, 0, 0.6);
   margin: 0 auto 2rem;
 }
 
