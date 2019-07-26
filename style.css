@@ -305,16 +305,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 =============*/
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .email {
-    margin-left: -5%;
-    margin-right: -5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
     max-width: 100%;
     overflow-x: hidden;
   }
 
   .fixed-background h5 {
-    margin: -1rem;
+    margin: 0rem;
+    padding: 2.5rem;
+    padding-bottom: 5rem;
     max-width: 100%;
     overflow-x: hidden;
   }
