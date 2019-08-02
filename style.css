@@ -122,20 +122,20 @@ h3.heading {
   text-shadow: .1rem .1rem .8rem black;
 }
 
-h3.heading-about {
-  font-size: 1.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-shadow: .1rem .1rem .8rem black;
-  margin-bottom: -2rem;
-}
-
 
 .heading-underline {
   width: 15%;
   height: .2rem;
   background-color: #0080A7;
   margin: 0 auto 2rem;
+}
+
+.heading-underline-about {
+  width: 15%;
+  height: .2rem;
+  background-color: #0080A7;
+  margin: 0 auto 2rem;
+  margin-bottom: -1rem;
 }
 
 h5 {
