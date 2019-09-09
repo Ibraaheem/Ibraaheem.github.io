@@ -1,0 +1,87 @@
+@import url(
+    'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f6f9;
+}
+
+#sideMenu {
+    background-image: linear-gradient(to bottom right, rgb(40, 90, 230), rgb(65, 183, 252));
+    width: 280px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    text-transform: uppercase;
+}
+
+nav {
+    padding-top: 100px;
+}
+
+nav a {
+    display: block;
+    color: #eaedf3;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 300;
+}
+
+nav a:hover {
+    background: rgb(58, 58, 58);
+}
+
+nav a:hover .fa {
+    color: skyblue;
+}
+
+nav .fa {
+    color: #eaedf3;
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
+    width: 30px;
+    position: relative;
+   
+}
+
+
+nav a:active {
+    background: rgb(58, 58, 58);
+    border-left: 5px solid skyblue;
+    padding: 15px 30px 15px 25px;
+}
+
+header {
+    margin-left: 280px;
+    padding: 20px;
+    background: #fff;
+}
+
+.user-area {
+    display: inline-block;
+    float: right;
+    
+}
+
+.user-area a {
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: #eaedf3;
+}
