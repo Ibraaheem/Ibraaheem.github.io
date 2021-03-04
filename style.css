@@ -16,7 +16,7 @@ body {
   border: 10px solid #73bfb5;
   margin: 50px auto 0 auto;
   box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
-  background-color: papayawhip;
+  background-color: #e6f0e6;
 }
 .card .text-container {
   width: 80%;
@@ -78,7 +78,7 @@ body {
   transform-origin: 0% 50%;
   transform: perspective(800px) rotateY(0deg);
   transition: all 0.8s ease-in-out;
-  background-color: papayawhip;
+  background-color: #e6f0e6;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 .cover-shape-large {
